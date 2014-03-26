@@ -29,13 +29,23 @@ padding-top:40px;
   height: 140px;
 }
 
+.card img:hover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 140px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
 #score, #tries {
   position: absolute;
   left: -150px;
   top: 40px;
   font-size: 100px;
   line-height: 100px;
-  color: #aaa;
+  color: #ffffff;
   width: 100px;
   text-align: right;
 }
@@ -43,11 +53,11 @@ padding-top:40px;
 #tries {
   font-size: 20px;
   top: 100px;
-  left: -160px;
+  left: -170px;
 }
 
 a {
-  color: #888;
+  color: #ffffff;
 }
 
 #controls {
