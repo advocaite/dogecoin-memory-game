@@ -39,8 +39,8 @@ function the_game(){
     </div>
     
     <div id="controls">
-      <a href="#" onclick="shuffle()">shuffle cards</a><br/>
-      <a href="#" onclick="shuffle(3)">shuffle cards (slowly)</a>
+      <a href="#" onclick="shuffle()">shuffle cards (fast)</a><br/>
+      <a href="#" onclick="shuffle(3)">shuffle cards (slow)</a>
     </div>
         
     <script type="text/javascript" src="./js/prototype.s2.min.js"></script>
